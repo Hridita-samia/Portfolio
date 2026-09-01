@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samia Islam Hridita | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+
+  <!-- Header Section -->
+  <header class="navbar">
+    <div class="logo">Portfolio</div>
+    <button class="menu-btn" id="menuOpenBtn">
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+    </button>
+  </header>
+
+  <!-- Navigation Menu Overlay -->
+  <div class="nav-overlay" id="navOverlay">
+    <div class="nav-content">
+      <div class="nav-header">
+        <span class="logo">Portfolio</span>
+        <button class="close-btn" id="menuCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <span class="nav-subtitle">NAVIGATE</span>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About Me</a></li>
+        <li><a href="#academics" class="nav-item">Academics</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+      <button class="light-mode-toggle" id="themeToggleBtn">LIGHT</button>
+    </div>
+  </div>
+
+  <!-- First Interface / Main Screen -->
+  <section id="hero" class="hero-section">
+    <div class="profile-img-container">
+      <img src="assets/hridita.jpeg" alt="Samia Islam Hridita" class="profile-img">
+    </div>
+
+    <div class="status-badge">
+      <span class="dot"></span> Available for Collaboration
+    </div>
+
+    <p class="greeting">HELLO, I'M</p>
+    <h1 class="hero-name"><span class="accent-text">Samia Islam Hridita</span></h1>
+
+    <div class="role-badge">
+      <span id="typing-text">Visual Storyteller</span><span class="cursor">|</span>
+    </div>
+
+    <p class="hero-desc">
+      Welcome to my portfolio. Here you'll find my projects, skills, and journey in design and development. Explore and get in touch.
+    </p>
+
+    <!-- Social Media Direct Links -->
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/samia-islam-hridita-6a653b356?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/Hridita-samia" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.facebook.com/share/1Cyno7NYcm/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/hridita.samia?igsi=MXEyeG90cTFydWlvNg%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <div class="hero-buttons">
+      <a href="#about" class="btn btn-primary">About Me</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </section>
+
+  <section id="about" class="content-section">
+      <h2 class="section-title">Profile</h2>
+      <div class="profile-details">
+        <p><strong>Name:</strong> Samia Islam Hridita</p>
+        
+      </div>
+
+      <div class="bio-text">
+        <p>
+          I’m a student developer and visual storyteller exploring the space where AI, IoT, and human-centric design meet. I love to create systems that do not just collect data, but actually learn from it to improve the way we live.
+        </p>
+        <p>
+          Whether I’m behind my camera lens or a code editor, the same drive guides me: capturing a vision and making it real. From training signal processing & ML models to architecting dynamic applications, I’m dedicated to the craft of turning complex things into simple and beautiful.
+        </p>
+        <p>
+          And who knows? After our next project together, a Christopher Nolan movie might be the perfect celebration!
+        </p>
+      </div>
+
+      <hr class="section-divider">
+      <!-- Academics & Awards Card Section -->
+    <section id="academics" class="content-section">
+      <div class="academic-card-container">
+        <span class="card-tag">EDUCATION</span>
+        <h2 class="card-title">Academics</h2>
+
+        <!-- University Segment -->
+        <div class="education-block">
+          <span class="year-range">2024 — 2027</span>
+          <h3 class="degree-title">B.Sc. in Information and Communication Technology</h3>
+          <p class="institution-name">Bangladesh University of Professionals</p>
+          <p class="department-name">Department of Information and Communication Technology</p>
+          <p class="academic-status">Currently in 6th Semester</p>
+          <p class="gpa-score">CGPA: 3.68</p>
+        </div>
+
+        <!-- College Segment -->
+        <div class="education-block">
+          <span class="year-range">COLLEGE</span>
+          <h3 class="institution-title">Khulna Govt. Majid Memorial City College, Khulna</h3>
+          <p class="gpa-score">HSC: 2022</p>
+          <p class="gpa-score">GPA: 5.00</p>
+        </div>
+
+        <!-- School Segment -->
+        <div class="education-block">
+          <span class="year-range">SCHOOL</span>
+          <h3 class="institution-title">Bangladesh Navy School and College, Khulna</h3>
+          <p class="gpa-score">SSC: 2020</p>
+          <p class="gpa-score">GPA: 5.00</p>
+        </div>
+
+        <hr class="card-divider">
+
+        <!-- Awards Segment -->
+        <div class="awards-block">
+          <span class="card-tag">AWARDS</span>
+          <ul class="awards-list">
+            <li>JSC Talentpool Scholarship — 2017</li>
+            <li>SSC Scholarship (General) — 2020</li>
+            <li>3rd Place in Science Olympiad — 2016</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+      <div class="focus-section">
+        <h3>Right now I'm focused on</h3>
+        <ul>
+          <li>Strengthening my fundamentals in AI & ML</li>
+          <li>Currently focusing on research-oriented work</li>
+          <li>Improving performance, accessibility, and usability of applications</li>
+        </ul>
+      </div>
+
+      <div class="focus-section">
+        <h3>What I want to build next</h3>
+        <ul>
+          <li>Research-driven full-stack projects that connect real-world data with clean, meaningful interfaces</li>
+          <li>Practical tools and dashboards that solve simple but impactful everyday problems</li>
+          <li>Open-source contributions where I can learn, experiment, and grow as a developer</li>
+        </ul>
+      </div>
+
+      <div class="outside-coding">
+        <h3>Outside of coding</h3>
+        <p>
+          I love expressing myself through photography and videography, reading thriller books and classic novels by Sarat Chandra Chattopadhyay, discovering new design and tech ideas, and experimenting with small projects that let me explore freely.
+        </p>
+      </div>
+    </section>
+
+   <!-- Featured Projects Section -->
+<section id="projects" class="content-section">
+  <span class="section-tag">WORK</span>
+  <h2 class="section-title">Featured Projects</h2>
+  
+  <div class="projects-grid">
+    
+    <!-- Project 1: Metro Rail Management System -->
+    <div class="project-card">
+      <div class="project-header">
+        <h3>Metro Rail Management System</h3>
+        <a href="https://github.com/Hridita-samia/Metro-Rail-Management-System" target="_blank" class="repo-link" aria-label="GitHub Repo">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p>A comprehensive system designed to streamline station management, ticket booking, and operational workflows for metro rail transport.</p>
+      <div class="project-tags">
+        <span>System Management</span>
+        <span>C++ / OOP</span>
+        <span>Database</span>
+      </div>
+    </div>
+
+    <!-- Project 2: DSP Audio Studio -->
+    <div class="project-card">
+      <div class="project-header">
+        <h3>DSP Audio Studio</h3>
+        <a href="https://github.com/Hridita-samia/DSP_Audio_Studio" target="_blank" class="repo-link" aria-label="GitHub Repo">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p>Digital Signal Processing application focused on audio filtering, noise reduction (like Double Notch filters), and frequency signal analysis.</p>
+      <div class="project-tags">
+        <span>MATLAB</span>
+        <span>DSP</span>
+        <span>Audio Processing</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+    <hr class="section-divider">
+
+    <!-- Contact Section -->
+<section id="contact" class="content-section">
+  <h2 class="section-title">Get In Touch</h2>
+  <p class="bio-text">Feel free to reach out for collaborations or project inquiries.</p>
+  
+  <div class="contact-box">
+    <p class="email-display"><i class="fa-regular fa-envelope"></i> samiaislamhridita@gmail.com</p>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=samiaislamhridita@gmail.com" target="_blank" class="btn btn-email">
+      <i class="fa-solid fa-paper-plane"></i> Send an Email
+    </a>
+  </div>
+</section>
+
+    <footer class="footer">
+      <p>© 2026 Samia Islam Hridita</p>
+      <div class="footer-badge">
+        Portfolio Site · Developed by Hridita
+      </div>
+    </footer>
+
+  </div>
+
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
